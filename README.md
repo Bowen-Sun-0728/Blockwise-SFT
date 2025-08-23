@@ -1,6 +1,6 @@
 # Blockwise-SFT
 
-Blockwise SFT: Bridging the Gap between Bidirectional Attention and Autoaggressive Decoding
+Blockwise SFT for Diffusion Language Models: Bridging the Gap between Bidirectional Attention and Autoregressive Decoding
 
 A lightweight recipe to (1) preprocess an instruction dataset into a compact `.pt` file and (2) fine-tune with either **blockwise masked SFT** (discrete-diffusion-friendly) or **full-sequence SFT** using LoRA + DeepSpeed.
 
